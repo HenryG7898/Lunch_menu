@@ -27,7 +27,7 @@ Route::get('/home', function () {
     return view('home');
 });
 Route::get('/menu', function () {
-    return view('breakfast');
+    return view('menu');
 });
 Route::get('/admin/home', function () {
     return view('admin.home');
